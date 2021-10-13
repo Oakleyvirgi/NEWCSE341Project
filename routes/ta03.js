@@ -11,4 +11,10 @@ router.get('/', (req, res, next) => {
   });
 });
 
+const controller3 = require('../controllers/ta03');
+
+router.get('/', controller3.getAllProds);
+
+router.get('/search', controller3.getSearch);
+
 module.exports = router;
