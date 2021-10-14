@@ -21,7 +21,7 @@ const session = require('express-session');
 const mongoose = require('mongoose');
 const MongoDBStore = require('connect-mongodb-session')(session);
 
-const MONGODB_URL = process.env.MONGODB_URL || "mongodb+srv://VirgiO:<password>@cluster0.tdgxs.mongodb.net/team05?retryWrites=true&w=majority";
+const MONGODB_URL = process.env.MONGODB_URL || "mongodb+srv://VirgiO:Caracas123!@cluster0.tdgxs.mongodb.net/team05?retryWrites=true&w=majority";
 
 const app = express();
 
